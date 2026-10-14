@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location Fodil — Location de Voiture en Algérie | Service Aéroport</title>
+  <meta name="description" content="Location Fodil : agence de location de voitures en Algérie. Service aéroport, véhicules récents, prix compétitifs. Votre mobilité, notre priorité.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Playfair+Display:ital,wght@0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/jpeg" href="assets/agence.jpg">
+</head>
+<body>
+
+  <!-- ══════════ TOPBAR ══════════ -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__info">
+        <span><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg> +213 553 599 541</span>
+        <span class="topbar__sep"></span>
+        <span><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6l4.2 2.5-.8 1.3L11 13.5V7h2v5.6z"/></svg> Lun – Sam : 08h00 – 20h00</span>
+      </div>
+      <a class="topbar__whatsapp" href="https://wa.me/213553599541" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.2-.7l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2.2-.2 3.9a11.6 11.6 0 0 0 4.5 4.2c1.7.8 2.4.9 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#accueil" class="brand">
+        <span class="brand__icon">
+          <svg viewBox="0 0 64 24"><path d="M4 16c2-1 4-4 6-5 3-2 6-5 12-6 7-1.4 14-1 20 2 3 1.5 6 4 10 5l4 .8c2 .4 3 1.6 3 3 0 1.4-.8 2.4-2.6 2.8l-3.9.9a6 6 0 0 0-11.9 0H22.4a6 6 0 0 0-11.9 0l-3-.6C4.7 18.2 3.5 17 4 16zm13 2.2a4 4 0 1 1 .1 0zm24 0a4 4 0 1 1 .1 0z" fill="currentColor"/></svg>
+        </span>
+        <span class="brand__text">LOCATION <em>FODIL</em><small>DE VOITURE</small></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#accueil" class="nav__link is-active">Accueil</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#flotte" class="nav__link">Notre Flotte</a>
+        <a href="#agence" class="nav__link">L'Agence</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20voiture." target="_blank" rel="noopener" class="btn btn--gold nav__cta">Réserver</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════ HERO SLIDER ══════════ -->
+  <section class="hero" id="accueil">
+    <div class="hero__slides" id="heroSlides">
+
+      <div class="hero__slide is-active" style="--bg:url('../assets/decor/alger-coucher.webp')">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+          <p class="hero__kicker reveal">Agence de location de voitures en Algérie</p>
+          <h1 class="hero__title reveal">Votre <span class="gold">mobilité</span>,<br>notre <span class="gold-italic">priorité</span></h1>
+          <p class="hero__sub reveal">Une flotte de véhicules récents et entretenus, disponible à Alger et à l'aéroport, à des prix clairs et sans surprise.</p>
+          <div class="hero__actions reveal">
+            <a href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20voiture." target="_blank" rel="noopener" class="btn btn--gold btn--lg">Réserver sur WhatsApp</a>
+            <a href="#flotte" class="btn btn--ghost btn--lg">Découvrir la flotte</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__slide" style="--bg:url('../assets/decor/baie-alger-maqam.webp')">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+          <p class="hero__kicker">Service Aéroport</p>
+          <h1 class="hero__title">Livraison à <span class="gold">l'aéroport</span><br>d'Alger, <span class="gold-italic">jour &amp; nuit</span></h1>
+          <p class="hero__sub">Atterrissez, votre voiture vous attend. Livraison et reprise du véhicule directement à l'aéroport Houari Boumediene.</p>
+          <div class="hero__actions">
+            <a href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20une%20livraison%20%C3%A0%20l%27a%C3%A9roport." target="_blank" rel="noopener" class="btn btn--gold btn--lg">Réserver une livraison</a>
+            <a href="#services" class="btn btn--ghost btn--lg">Nos services</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__slide" style="--bg:url('../assets/agence.jpg')">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+          <p class="hero__kicker">Location Fodil — De Voiture</p>
+          <h1 class="hero__title">Des prix <span class="gold">compétitifs</span>,<br>un service <span class="gold-italic">premium</span></h1>
+          <p class="hero__sub">Véhicules récents, assistance réactive et tarifs transparents. Passez nous voir à l'agence ou réservez en un message.</p>
+          <div class="hero__actions">
+            <a href="#flotte" class="btn btn--gold btn--lg">Voir les tarifs</a>
+            <a href="#agence" class="btn btn--ghost btn--lg">L'agence</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero__nav">
+      <button class="hero__arrow" id="heroPrev" aria-label="Slide précédent"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="hero__dots" id="heroDots"></div>
+      <button class="hero__arrow" id="heroNext" aria-label="Slide suivant"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+
+    <div class="hero__scroll"><span></span></div>
+  </section>
+
+  <!-- ══════════ TRUST BAR ══════════ -->
+  <section class="trust">
+    <div class="container trust__grid">
+      <div class="trust__item reveal"><strong>24/7</strong><span>Assistance routière</span></div>
+      <div class="trust__item reveal"><strong>2024+</strong><span>Véhicules récents</span></div>
+      <div class="trust__item reveal"><strong>0 DA</strong><span>Frais cachés</span></div>
+      <div class="trust__item reveal"><strong>Aéroport</strong><span>Livraison incluse</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════ SERVICES ══════════ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__kicker">Nos Services</p>
+        <h2 class="section__title">Une location <span class="gold">simple</span>, un service <span class="gold-italic">d'exception</span></h2>
+        <p class="section__sub">De la réservation à la remise des clés, nous nous occupons de tout pour que vous rouliez l'esprit tranquille.</p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card reveal">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24"><path d="M5 11l1.5-4.5A2 2 0 0 1 8.4 5h7.2a2 2 0 0 1 1.9 1.5L19 11m-14 0h14a2 2 0 0 1 2 2v4h-2.5m-13.5 0H3v-4a2 2 0 0 1 2-2zm1 5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm12 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM7 13.5h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Location de voitures</h3>
+          <p>Citadines, berlines et SUV pour tous vos besoins — courte ou longue durée, à des tarifs étudiés.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24"><path d="M2.5 21.5l19-9.5-19-2.5 6 2.5-6 2.5 19 7-19-9.5" fill="none"/><path d="M21.5 12L2.5 5.5l5 5.3-5 5.7 19-4.5zm-14-1.2l14-2.3-14 2.3z" fill="currentColor" opacity=".2"/><path d="M10.2 3.2l9.7 7.4c.8.6.5 1.9-.5 2.1l-1.2.2a1.6 1.6 0 0 1-1.5-.7L8.4 4.4c-.5-.7 0-1.7.9-1.6l.9.4zM2.6 15.1l5.5.9-3.6 3.6c-.6.6-1.6.4-1.9-.4l-.9-2.2c-.3-.8.1-1.7.9-1.9z" fill="currentColor"/></svg></div>
+          <h3>Service aéroport</h3>
+          <p>Livraison et reprise du véhicule à l'aéroport d'Alger, à toute heure. Votre voiture vous attend à l'atterrissage.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 2.4 3.3-.5 1 3.2 3.2 1-.5 3.3L24 14l-2.4 2.4.5 3.3-3.2 1-1 3.2-3.3-.5L12 26l-2.4-2.4-3.3.5-1-3.2-3.2-1 .5-3.3L0 14l2.4-2.4-.5-3.3 3.2-1 1-3.2 3.3.5z" transform="scale(.92)"/><path d="M8.5 12.5l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Véhicules récents</h3>
+          <p>Une flotte moderne, révisée et nettoyée avant chaque location, pour rouler en toute sécurité.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12M6 8h12M9 13c6.7 0 6.7-10 0-10H6c6.7 0 6.7 10 0 10zm0 0l8 8"/></svg></div>
+          <h3>Prix compétitifs</h3>
+          <p>Des tarifs clairs en dinars, annoncés dès la réservation. Pas de frais cachés, pas de mauvaise surprise.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.1-7-11a7 7 0 0 1 14 0c0 5.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+          <h3>Livraison à domicile</h3>
+          <p>Nous livrons le véhicule chez vous ou à votre bureau dans plusieurs wilayas, selon vos disponibilités.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13a9 9 0 0 1 18 0"/><path d="M3 13a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3H3v-7zm18 0v7h-.1a3 3 0 0 1-3-3v-1a3 3 0 0 1 3-3z"/></svg></div>
+          <h3>Assistance 24/7</h3>
+          <p>Une équipe joignable jour et nuit en cas de question, de panne ou d'imprévu pendant votre location.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FLOTTE / GALERIE ══════════ -->
+  <section class="section fleet" id="flotte">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__kicker">Notre Flotte</p>
+        <h2 class="section__title">Des voitures pour <span class="gold">chaque trajet</span></h2>
+        <p class="section__sub">Faites défiler notre sélection — du runabout économique au SUV familial 7 places.</p>
+      </div>
+    </div>
+
+    <div class="fleet__carousel reveal">
+      <button class="fleet__arrow fleet__arrow--prev" id="fleetPrev" aria-label="Voitures précédentes"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+
+      <div class="fleet__viewport" id="fleetViewport">
+        <div class="fleet__track" id="fleetTrack">
+
+          <article class="car-card">
+            <span class="car-card__badge">Populaire</span>
+            <div class="car-card__stage"><img src="assets/cars/clio5-alpine.webp" alt="Renault Clio 5 Alpine" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Renault Clio 5 <em>Alpine</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Manuelle</li><li>Essence</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">6 500 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20Renault%20Clio%205%20Alpine." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <div class="car-card__stage"><img src="assets/cars/renault-captur.png" alt="Renault Captur" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Renault <em>Captur</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Automatique</li><li>Essence</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">8 500 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Renault%20Captur." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <div class="car-card__stage"><img src="assets/cars/golf-8.webp" alt="Volkswagen Golf 8" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Volkswagen <em>Golf 8</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Automatique</li><li>Diesel</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">9 000 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20Golf%208." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <div class="car-card__stage"><img src="assets/cars/jetour-x70-plus.png" alt="Jetour X70 Plus" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Jetour <em>X70 Plus</em></h3>
+              <ul class="car-card__specs">
+                <li>7 places</li><li>Automatique</li><li>Essence</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">13 000 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20le%20Jetour%20X70%20Plus." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <div class="car-card__stage"><img src="assets/cars/opel-astra-grise.webp" alt="Opel Astra" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Opel <em>Astra</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Automatique</li><li>Diesel</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">8 000 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27Opel%20Astra." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <span class="car-card__badge">Famille</span>
+            <div class="car-card__stage"><img src="assets/cars/opel-grandland.webp" alt="Opel Grandland" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Opel <em>Grandland</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Automatique</li><li>Diesel</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">11 000 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27Opel%20Grandland." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <div class="car-card__stage"><img src="assets/cars/opel-mokka.png" alt="Opel Mokka" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Opel <em>Mokka</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Automatique</li><li>Essence</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">9 500 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20l%27Opel%20Mokka." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <span class="car-card__badge car-card__badge--dark">Éco</span>
+            <div class="car-card__stage"><img src="assets/cars/fiat-500.webp" alt="Fiat 500" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Fiat <em>500</em></h3>
+              <ul class="car-card__specs">
+                <li>4 places</li><li>Manuelle</li><li>Essence</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">5 500 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20Fiat%20500." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <div class="car-card__stage"><img src="assets/cars/citroen-c3.png" alt="Citroën C3" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Citroën <em>C3</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Manuelle</li><li>Essence</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">6 000 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20Citro%C3%ABn%20C3." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="car-card">
+            <div class="car-card__stage"><img src="assets/cars/clio5-techno.png" alt="Renault Clio 5 Techno" loading="lazy"></div>
+            <div class="car-card__body">
+              <h3>Renault Clio 5 <em>Techno</em></h3>
+              <ul class="car-card__specs">
+                <li>5 places</li><li>Manuelle</li><li>Essence</li>
+              </ul>
+              <div class="car-card__foot">
+                <p class="car-card__price">6 000 DA<small>/jour</small></p>
+                <a class="btn btn--gold btn--sm" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20la%20Clio%205%20Techno." target="_blank" rel="noopener">Réserver</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <button class="fleet__arrow fleet__arrow--next" id="fleetNext" aria-label="Voitures suivantes"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+
+    <div class="fleet__dots" id="fleetDots"></div>
+  </section>
+
+  <!-- ══════════ PROCESS ══════════ -->
+  <section class="section process">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__kicker">Comment ça marche</p>
+        <h2 class="section__title">Réservez en <span class="gold">3 étapes</span></h2>
+      </div>
+      <div class="process__grid">
+        <div class="process__step reveal">
+          <span class="process__num">01</span>
+          <h3>Choisissez</h3>
+          <p>Parcourez la flotte et trouvez la voiture qui correspond à votre trajet et à votre budget.</p>
+        </div>
+        <div class="process__step reveal">
+          <span class="process__num">02</span>
+          <h3>Réservez</h3>
+          <p>Envoyez-nous un message WhatsApp : date, lieu de prise en charge, et nous confirmons immédiatement.</p>
+        </div>
+        <div class="process__step reveal">
+          <span class="process__num">03</span>
+          <h3>Roulez</h3>
+          <p>Récupérez votre voiture à l'agence, à l'aéroport ou chez vous — et prenez la route l'esprit léger.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ AGENCE ══════════ -->
+  <section class="section agency" id="agence">
+    <div class="container agency__grid">
+      <div class="agency__media reveal">
+        <img src="assets/agence.jpg" alt="L'agence Location Fodil" loading="lazy">
+        <div class="agency__media-badge">
+          <strong>Location Fodil</strong>
+          <span>Service aéroport</span>
+        </div>
+      </div>
+      <div class="agency__text">
+        <p class="section__kicker reveal">L'Agence</p>
+        <h2 class="section__title reveal">Votre partenaire <span class="gold">mobilité</span> en Algérie</h2>
+        <p class="reveal">Location Fodil est une agence de location de voitures basée en Algérie, spécialisée dans le service aéroport. Notre mission : rendre la location de voiture aussi simple qu'un appel téléphonique, avec des véhicules récents et des tarifs honnêtes.</p>
+        <ul class="agency__list">
+          <li class="reveal"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Flotte moderne et entretenue</li>
+          <li class="reveal"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Livraison aéroport et wilayas</li>
+          <li class="reveal"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Réservation WhatsApp simplifiée</li>
+          <li class="reveal"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg> Tarifs compétitifs, sans surprise</li>
+        </ul>
+        <a href="tel:+213553599541" class="btn btn--dark btn--lg reveal">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="currentColor"/></svg>
+          +213 553 599 541
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CONTACT ══════════ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="section__kicker">Contact</p>
+        <h2 class="section__title">Prêt à prendre la <span class="gold">route</span> ?</h2>
+        <p class="section__sub">Appelez-nous, écrivez-nous sur WhatsApp ou laissez un message — réponse rapide garantie.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__cards">
+          <a class="contact-card reveal" href="tel:+213553599541">
+            <div class="contact-card__icon"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg></div>
+            <div><h3>Téléphone</h3><p>+213 553 599 541</p></div>
+          </a>
+          <a class="contact-card reveal" href="https://wa.me/213553599541" target="_blank" rel="noopener">
+            <div class="contact-card__icon"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.2-.7l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2.2-.2 3.9a11.6 11.6 0 0 0 4.5 4.2c1.7.8 2.4.9 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg></div>
+            <div><h3>WhatsApp</h3><p>Réponse en quelques minutes</p></div>
+          </a>
+          <div class="contact-card reveal">
+            <div class="contact-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.1-7-11a7 7 0 0 1 14 0c0 5.9-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></div>
+            <div><h3>Localisation</h3><p>Alger, Algérie — service aéroport</p></div>
+          </div>
+          <div class="contact-card reveal">
+            <div class="contact-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.6l4.2 2.5-.8 1.3L11 13.5V7h2v5.6z"/></svg></div>
+            <div><h3>Horaires</h3><p>Lun–Sam : 08h–20h · Assistance 24/7</p></div>
+          </div>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm">
+          <h3>Demande de réservation</h3>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="f-name">Nom complet</label>
+              <input id="f-name" name="name" type="text" placeholder="Votre nom" required>
+            </div>
+            <div class="form-field">
+              <label for="f-phone">Téléphone</label>
+              <input id="f-phone" name="phone" type="tel" placeholder="+213 ..." required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="f-car">Véhicule souhaité</label>
+            <select id="f-car" name="car">
+              <option>Renault Clio 5 Alpine</option>
+              <option>Renault Clio 5 Techno</option>
+              <option>Renault Captur</option>
+              <option>Volkswagen Golf 8</option>
+              <option>Opel Astra</option>
+              <option>Opel Mokka</option>
+              <option>Opel Grandland</option>
+              <option>Jetour X70 Plus</option>
+              <option>Fiat 500</option>
+              <option>Citroën C3</option>
+              <option>Autre / Je ne sais pas encore</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="f-msg">Message</label>
+            <textarea id="f-msg" name="message" rows="4" placeholder="Dates, lieu de prise en charge (agence, aéroport, domicile)..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--gold btn--lg contact__submit">Envoyer sur WhatsApp</button>
+          <p class="form-note">Le message s'ouvrira dans WhatsApp, prêt à envoyer.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#accueil" class="brand brand--footer">
+          <span class="brand__icon">
+            <svg viewBox="0 0 64 24"><path d="M4 16c2-1 4-4 6-5 3-2 6-5 12-6 7-1.4 14-1 20 2 3 1.5 6 4 10 5l4 .8c2 .4 3 1.6 3 3 0 1.4-.8 2.4-2.6 2.8l-3.9.9a6 6 0 0 0-11.9 0H22.4a6 6 0 0 0-11.9 0l-3-.6C4.7 18.2 3.5 17 4 16zm13 2.2a4 4 0 1 1 .1 0zm24 0a4 4 0 1 1 .1 0z" fill="currentColor"/></svg>
+          </span>
+          <span class="brand__text">LOCATION <em>FODIL</em><small>DE VOITURE · SERVICE AÉROPORT</small></span>
+        </a>
+        <p>Votre mobilité, notre priorité. Location de voitures en Algérie, livraison aéroport incluse.</p>
+        <a class="footer__phone" href="tel:+213553599541">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="currentColor"/></svg>
+          +213 553 599 541
+        </a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Navigation</h4>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#flotte">Notre Flotte</a>
+        <a href="#agence">L'Agence</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Nos Services</h4>
+        <a href="#services">Location de voitures</a>
+        <a href="#services">Service aéroport</a>
+        <a href="#services">Livraison à domicile</a>
+        <a href="#services">Assistance 24/7</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:+213553599541">+213 553 599 541</a>
+        <a href="https://wa.me/213553599541" target="_blank" rel="noopener">WhatsApp</a>
+        <span>Alger, Algérie</span>
+        <span>Lun–Sam : 08h – 20h</span>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <div class="container footer__bar-inner">
+        <p>© 2026 Location Fodil — Tous droits réservés</p>
+        <p>Votre mobilité, notre <span class="gold-italic">priorité</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flottant -->
+  <a class="whatsapp-float" href="https://wa.me/213553599541?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20une%20voiture." target="_blank" rel="noopener" aria-label="Réserver sur WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.2-.7l.5-.6c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.9.9-1.1 2.2-.2 3.9a11.6 11.6 0 0 0 4.5 4.2c1.7.8 2.4.9 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
